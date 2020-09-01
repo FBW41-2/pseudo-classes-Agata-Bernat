@@ -20,9 +20,40 @@ button {
 
 
 /* Task 1 */
+a {
+  color: saddlebrown;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
+a:link {
+  color: red;
+}
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: saddlebrown;
+}
+
+a:active {
+  color: blue;
+}
 /* Task 2 */
+button:active {
+  color: blue;
+  background-color: saddlebrown;
+}
+button:hover {
+  color: orange;
+  background-color: green;
+}
+
 
 /* Task 3 */
-
+p::first-letter {
+  font-size: 200%;
+  color: saddlebrown;
+}
 /* Task 4 */
